@@ -52,23 +52,23 @@ Nel caso in esame, sfruttando **Pyhton 3.7** e **PyQT5**, è stato possibile sfr
 ## Struttura del progetto
 All'interno di questa directory sono presenti diversi file e diverse directory, di seguito spiegherò brevemente cosa sono:
 * **[Icon](Icon)**: directory contente le icone sfruttate dalla GUI;
-* **ImageTest**: directory che contiene alcune immagini con cui è possibile testare la GUI.
-* **Model**: directory contente i modelli dei dati dell'applicazione. Al suo interno sono presenti 5 file che si occupano della gestione dei dati. I file, nel dettaglio sono:
-  - _localizationUtiliy.py_ : contiente delle funzioni utili per individuare le coordinate;
-  - _model_ : contiene il modello con il quale il controllore andrà ad interagire;
-  - _observableImage_ : contiene la definizione della classe rappresentatitva delle immagini Exif osservabile;
-  - _observableList_ : contiene la definizione della classe rappresentattiva di una lista osservabile;
-  - _observableObject_: contiene la definizione della classe di un semplice oggetto Osservabile.
-* **View**: directory contente i file che definiscono la vista dell'applicazione. I file in essa contenuti sono:
-  - _Main.ui_ : file generato dal programma _PyQt designer_ (sfruttato per la realizzazione dell'interfaccia);
-  - _view.py_ : vista derivata dal file Main.ui attraverso il comando _pyuc5_;
-  - _windowResizable.py_ : viene definita una QMainWindow che effettua l'Override dell'evento di ridimensionamento.
-* _controller.py_ : questo file contiene tuttte le interazioni necessarie tra la vista ed il modello, è il **controllore** dell'applicazione;
-* _main.py_ : main dell'applicazione.
+* **[ImageTest](ImageTest)**: directory che contiene alcune immagini con cui è possibile testare la GUI.
+* **[Model](Model)**: directory contente i modelli dei dati dell'applicazione. Al suo interno sono presenti 5 file che si occupano della gestione dei dati. I file, nel dettaglio sono:
+  - _[localizationUtiliy.py](Model/localizationUtility.py)_ : contiente delle funzioni utili per individuare le coordinate;
+  - _[model.py](Model/model.py)_: contiene il modello con il quale il controllore andrà ad interagire;
+  - _[observableImage.py](Model/observableImage.py)_  contiene la definizione della classe rappresentatitva delle immagini Exif osservabile;
+  - _[observableList.py](Model/observableList.py)_: contiene la definizione della classe rappresentattiva di una lista osservabile;
+  - _[observableObject.py](Model/observableObject.py)_: contiene la definizione della classe di un semplice oggetto Osservabile.
+* **[View](View)**: directory contente i file che definiscono la vista dell'applicazione. I file in essa contenuti sono:
+  - _[Main.ui](View/Main.ui)_: file generato dal programma _PyQt designer_ (sfruttato per la realizzazione dell'interfaccia);
+  - _[view.py](View/view.py)_ : vista derivata dal file Main.ui attraverso il comando _pyuc5_;
+  - _[windowResizable.py](View/windowResizable.py)_: viene definita una QMainWindow che effettua l'Override dell'evento di ridimensionamento.
+* _[controller.py](controller.py)_: questo file contiene tuttte le interazioni necessarie tra la vista ed il modello, è il **controllore** dell'applicazione;
+* _[main.py](main.py)_ : main dell'applicazione.
 
 ## Test
 Per poter testare il progetto, all'interno della directory **ImageTest** sono presenti alcune immagini .jpg che rispecchiano il funzionamento dell'applicazione. In particolare:
-- _0.jpg_ : immagine (100x77) con alcune informazioni Exif ma senza GPS; 
-- _1.jpg_ : immagine (1024x765) con Exif e informazioni GPS;
-- _2.jpg_ : immagine (2682x1992) con Exif ma non GPS;
-- _3.jpg_ : immagine senza alcuna informazione Exif.
+- _[0.jpg](ImageTest/0.jpg)_ : immagine (100x77) con alcune informazioni Exif ma senza GPS; 
+- _[1.jpg](ImageTest/1.jpg)_ : immagine (1024x765) con Exif e informazioni GPS;
+- _[2.jpg](ImageTest/2.jpg)_ : immagine (2682x1992) con Exif ma non GPS;
+- _[3.jpg](ImageTest/3.jpg)_ : immagine senza alcuna informazione Exif.

@@ -27,8 +27,13 @@ All'interno della GUI possono essere individuati diversi elementi:
 6: **Tabella Exif**: presenta le informazioni EXIF contenute all'interno dell'immagine corrente.
 
 #### Shortcut
-Un elemento fondamentale per migliorare l'esperienza dell'utente sono le **shortcut** (scorciatoie). All'interno del programma sono presenti tante scorciatoie quante sono le azioni, tranne che per l'azione di caricamento delle immagini.
+Un elemento fondamentale per migliorare l'esperienza dell'utente sono le **shortcut** (scorciatoie) che è un set di uno o più tasti di una tastiera di un PC che richiamano una certa operazione del software qundo vengono premuti dall'utente. 
+All'interno del programma sono presenti tante scorciatoie quante sono le azioni, tranne che per l'azione di caricamento delle immagini.
 In particolare, le _shortcut_ inserite all'interno del programma sono le seguenti:
-
+* **CTRL+M**: effettua l'azione della localizzazione dell'immagine;
+* **CTRL+R**: effettua l'azione di rotazione dell'immagine;
+* **left arrow**: effettua l'operazione di switching dell'immagine corrente a quella precedente nella lista;
+* **right arrow**: effettua l'operazione di switching dell'immagine corrente a quella successiva nella lista.
 
 # Implementazione
+Il sistema è stato implementato attraverso 

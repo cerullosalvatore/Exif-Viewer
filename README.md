@@ -25,7 +25,8 @@ All'interno della GUI possono essere individuati diversi elementi:
 4. **Bottone Previous**: permette di cambiare l'immagine corrente, caricando l'immagine precedente nella lista, aggiornando tutte le informazioni e gli elementi grafici all'interno GUI; 
 5. **Bottone Next**: permette di cambiare l'immagine corrente, caricando quella successiva nella lista, aggiornadno tutte le informazioni e gli elemenit grafici all'interno della GUI; 
 6: **Tabella Exif**: presenta le informazioni EXIF contenute all'interno dell'immagine corrente.
-![Image](https://github.com/cerullosalvatore/Exif-Viewer/blob/master/screen_1.png)
+
+![Image GUI](https://github.com/cerullosalvatore/Exif-Viewer/blob/master/screen_1.png)
 
 #### Shortcut
 Un elemento fondamentale per migliorare l'esperienza dell'utente sono le **shortcut** (scorciatoie) che è un set di uno o più tasti di una tastiera di un PC che richiamano una certa operazione del software qundo vengono premuti dall'utente. 
@@ -38,7 +39,8 @@ In particolare, le _shortcut_ inserite all'interno del programma sono le seguent
 
 #### ToolTip
 Le funzioni, come le scorciatoie sono presentate all'utenete attraverso dei **ToolTip**: messaggi di testo che vengono visualizzati quando il cursore è posizionato su un pulsante.
-![Image](https://github.com/cerullosalvatore/Exif-Viewer/blob/master/screen_2.png)
+
+![Image ToolTip](https://github.com/cerullosalvatore/Exif-Viewer/blob/master/screen_2.png)
 
 # Implementazione
 Il sistema è stato progettato attraverso il paradigma del **Model-View-Controller**. Secondo questo modello è possibile dividere un'applicazione interattiva in tre comonenti: 

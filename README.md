@@ -25,7 +25,7 @@ All'interno della GUI possono essere individuati diversi elementi:
 4. **Immagine corrente**;
 5. **Bottone Previous**: permette di cambiare l'immagine corrente, caricando l'immagine precedente nella lista, aggiornando tutte le informazioni e gli elementi grafici all'interno GUI; 
 6. **Bottone Next**: permette di cambiare l'immagine corrente, caricando quella successiva nella lista, aggiornadno tutte le informazioni e gli elemenit grafici all'interno della GUI; 
-7: **Tabella Exif**: presenta le informazioni EXIF contenute all'interno dell'immagine corrente.
+7. **Tabella Exif**: presenta le informazioni EXIF contenute all'interno dell'immagine corrente.
 
 ![Image GUI](https://github.com/cerullosalvatore/Exif-Viewer/blob/master/screen_0.png)
 

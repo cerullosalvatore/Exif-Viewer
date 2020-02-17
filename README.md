@@ -35,6 +35,9 @@ In particolare, le _shortcut_ inserite all'interno del programma sono le seguent
 * **left arrow**: effettua l'operazione di switching dell'immagine corrente a quella precedente nella lista;
 * **right arrow**: effettua l'operazione di switching dell'immagine corrente a quella successiva nella lista.
 
+####ToolTip
+Le funzioni, come le scorciatoie sono presentate all'utenete attraverso dei **ToolTip**: messaggi di testo che vengono visualizzati quando il cursore è posizionato su un pulsante.
+
 # Implementazione
 Il sistema è stato progettato attraverso il paradigma del **Model-View-Controller**. Secondo questo modello è possibile dividere un'applicazione interattiva in tre comonenti: 
 - **Modello**: cotiene i dati di base e le funzionalità correlate;

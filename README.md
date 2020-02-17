@@ -45,7 +45,23 @@ Nel caso in esame, sfruttando **Pyhton 3.7** e **PyQT5**, è stato possibile sfr
 ## Struttura del progetto
 All'interno di questa directory sono presenti diversi file e diverse directory, di seguito spiegherò brevemente cosa sono:
 * **Icon**: directory contente le icone sfruttate dalla GUI;
+* **ImageTest**: directory che contiene alcune immagini con cui è possibile testare la GUI.
 * **Model**: directory contente i modelli dei dati dell'applicazione. Al suo interno sono presenti 5 file che si occupano della gestione dei dati. I file, nel dettaglio sono:
   - _localizationUtiliy.py_ : contiente delle funzioni utili per individuare le coordinate;
   - _model_ : contiene il modello con il quale il controllore andrà ad interagire;
-  - _observableImage_ :
+  - _observableImage_ : contiene la definizione della classe rappresentatitva delle immagini Exif osservabile;
+  - _observableList_ : contiene la definizione della classe rappresentattiva di una lista osservabile;
+  - _observableObject_: contiene la definizione della classe di un semplice oggetto Osservabile.
+* **View**: directory contente i file che definiscono la vista dell'applicazione. I file in essa contenuti sono:
+  - _Main.ui_ : file generato dal programma _PyQt designer_ (sfruttato per la realizzazione dell'interfaccia);
+  - _view.py_ : vista derivata dal file Main.ui attraverso il comando _pyuc5_;
+  - _windowResizable.py_ : viene definita una QMainWindow che effettua l'Override dell'evento di ridimensionamento.
+* _controller.py_ : questo file contiene tuttte le interazioni necessarie tra la vista ed il modello, è il **controllore** dell'applicazione;
+* _main.py_ : main dell'applicazione.
+
+## Test
+Per poter testare il progetto, all'interno della directory **ImageTest** sono presenti alcune immagini .jpg che rispecchiano il funzionamento dell'applicazione. In particolare:
+- _0.jpg_ : immagine (100x77) con alcune informazioni Exif ma senza GPS; 
+- _1.jpg_ : immagine (1024x765) con Exif e informazioni GPS;
+- _2.jpg_ : immagine (2682x1992) con Exif ma non GPS;
+- _3.jpg_ : immagine senza alcuna informazione Exif.

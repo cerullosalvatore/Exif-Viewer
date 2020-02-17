@@ -22,11 +22,12 @@ All'interno della GUI possono essere individuati diversi elementi:
 1. **Bottone per il caricamento delle immagini**: apre un modal che ci consentirà di selezionare la directory contente le immagini o le immagini che vogliamo visualizzare;
 2. **Bottone per la localizzazione**: attivato solo se presenti le informazioni GPS dell'immagine, in questo caso al suo click aprirà una nuova scheda all'interno di un browser e si collegherà a google maps mostrando il luogo in cui è stata scattata l'immagine; 
 3. **Bottone di rotazione dell'immagine**: incrementa la rotazione dell'immagine di 90° rispetto alla rotazione attuale;
-4. **Bottone Previous**: permette di cambiare l'immagine corrente, caricando l'immagine precedente nella lista, aggiornando tutte le informazioni e gli elementi grafici all'interno GUI; 
-5. **Bottone Next**: permette di cambiare l'immagine corrente, caricando quella successiva nella lista, aggiornadno tutte le informazioni e gli elemenit grafici all'interno della GUI; 
-6: **Tabella Exif**: presenta le informazioni EXIF contenute all'interno dell'immagine corrente.
+4. **Immagine corrente**;
+5. **Bottone Previous**: permette di cambiare l'immagine corrente, caricando l'immagine precedente nella lista, aggiornando tutte le informazioni e gli elementi grafici all'interno GUI; 
+6. **Bottone Next**: permette di cambiare l'immagine corrente, caricando quella successiva nella lista, aggiornadno tutte le informazioni e gli elemenit grafici all'interno della GUI; 
+7: **Tabella Exif**: presenta le informazioni EXIF contenute all'interno dell'immagine corrente.
 
-![Image GUI](https://github.com/cerullosalvatore/Exif-Viewer/blob/master/screen_1.png)
+![Image GUI](https://github.com/cerullosalvatore/Exif-Viewer/blob/master/screen_0.png)
 
 #### Shortcut
 Un elemento fondamentale per migliorare l'esperienza dell'utente sono le **shortcut** (scorciatoie) che è un set di uno o più tasti di una tastiera di un PC che richiamano una certa operazione del software qundo vengono premuti dall'utente. 

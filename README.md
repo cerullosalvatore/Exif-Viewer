@@ -51,7 +51,7 @@ Nel caso in esame, sfruttando **Pyhton 3.7** e **PyQT5**, è stato possibile sfr
 
 ## Struttura del progetto
 All'interno di questa directory sono presenti diversi file e diverse directory, di seguito spiegherò brevemente cosa sono:
-* **Icon**: directory contente le icone sfruttate dalla GUI;
+* **[Icon](Icon)**: directory contente le icone sfruttate dalla GUI;
 * **ImageTest**: directory che contiene alcune immagini con cui è possibile testare la GUI.
 * **Model**: directory contente i modelli dei dati dell'applicazione. Al suo interno sono presenti 5 file che si occupano della gestione dei dati. I file, nel dettaglio sono:
   - _localizationUtiliy.py_ : contiente delle funzioni utili per individuare le coordinate;

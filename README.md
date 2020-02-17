@@ -36,4 +36,16 @@ In particolare, le _shortcut_ inserite all'interno del programma sono le seguent
 * **right arrow**: effettua l'operazione di switching dell'immagine corrente a quella successiva nella lista.
 
 # Implementazione
-Il sistema è stato implementato attraverso 
+Il sistema è stato progettato attraverso il paradigma del **Model-View-Controller**. Secondo questo modello è possibile dividere un'applicazione interattiva in tre comonenti: 
+- **Modello**: cotiene i dati di base e le funzionalità correlate;
+- **Viste**: mostrano le informazioni all'utente;
+- **Controllori**: gestiscono l'input dell'utente e mediano la comunicazione tra viste e modello.
+Nel caso in esame, sfruttando **Pyhton 3.7** e **PyQT5**, è stato possibile sfruttare l'**Observer-Pattern** in cui il **Modello** e la **Vista** possono _pubblicare_ informazioni sui cambiamento di stato e sulle interazioni; e **Vista** e **Controllore** possono _iscriversi_ a ciò di cui hanno bisogno.
+
+## Struttura del progetto
+All'interno di questa directory sono presenti diversi file e diverse directory, di seguito spiegherò brevemente cosa sono:
+* **Icon**: directory contente le icone sfruttate dalla GUI;
+* **Model**: directory contente i modelli dei dati dell'applicazione. Al suo interno sono presenti 5 file che si occupano della gestione dei dati. I file, nel dettaglio sono:
+  - _localizationUtiliy.py_ : contiente delle funzioni utili per individuare le coordinate;
+  - _model_ : contiene il modello con il quale il controllore andrà ad interagire;
+  - _observableImage_ :
